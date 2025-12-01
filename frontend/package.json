@@ -1,7 +1,6 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-  "homepage": "https://dreamwalker.github.io/backend-infotech",
   "private": true,
   "dependencies": {
     "@hookform/resolvers": "^5.0.1",
@@ -60,9 +59,7 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
-    "test": "craco test",
-     "predeploy": "npm run build",
-     "deploy": "gh-pages -d build"
+    "test": "craco test"
   },
   "browserslist": {
     "production": [
