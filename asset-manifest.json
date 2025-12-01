@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/backend-infotech/static/css/main.bb730790.css",
+    "main.js": "/backend-infotech/static/js/main.6bbdfc70.js",
+    "index.html": "/backend-infotech/index.html",
+    "main.bb730790.css.map": "/backend-infotech/static/css/main.bb730790.css.map",
+    "main.6bbdfc70.js.map": "/backend-infotech/static/js/main.6bbdfc70.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb730790.css",
+    "static/js/main.6bbdfc70.js"
+  ]
+}
