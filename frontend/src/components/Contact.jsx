@@ -172,17 +172,18 @@ const Contact = () => {
               );
             })}
 
-            {/* QR Code Placeholder */}
+            {/* QR Code / Business Card */}
             <div className="bg-white rounded-2xl p-6">
               <div className="flex items-center gap-4 mb-4">
                 <QrCode className="w-6 h-6 text-yellow-400" />
                 <h3 className="text-xl font-bold text-black">Business Card</h3>
               </div>
-              <div className="w-full aspect-square bg-gray-100 rounded-xl flex items-center justify-center">
-                <div className="text-center">
-                  <QrCode className="w-32 h-32 mx-auto text-gray-300 mb-4" />
-                  <p className="text-gray-500 text-sm">QR Code Placeholder</p>
-                </div>
+              <div className="w-full aspect-square bg-gray-50 rounded-xl flex items-center justify-center p-4 overflow-hidden">
+                <img 
+                  src="https://customer-assets.emergentagent.com/job_backdev-react/artifacts/4z63fw0t_My_Business_Card-1024.png"
+                  alt="Backend Infotech Business Card"
+                  className="w-full h-full object-contain"
+                />
               </div>
             </div>
           </div>
