@@ -1,6 +1,16 @@
 // craco.config.js
 const path = require("path");
-require("dotenv").config();
+
+// Load environment variables if `dotenv` is available. Use try/catch
+// so the dev server doesn't crash when `dotenv` isn't installed.
+let dotenvLoaded = false;
+try {
+  const dotenv = require("dotenv");
+  dotenv.config();
+  dotenvLoaded = true;
+} catch (e) {
+  // dotenv is optional for local setups; continue without it.
+}
 
 // Environment variable overrides
 const config = {
