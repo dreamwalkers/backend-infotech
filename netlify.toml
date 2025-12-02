@@ -2,7 +2,7 @@
 [build]
   base = "frontend"
   command = "yarn build"
-  publish = "frontend/build"
+  publish = "build"
 
 [context.production.environment]
 # If Netlify installs using npm, include devDependencies so CRACO is available
