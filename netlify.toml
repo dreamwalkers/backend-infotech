@@ -1,0 +1,14 @@
+# Netlify configuration for frontend
+[build]
+  base = "frontend"
+  command = "yarn build"
+  publish = "frontend/build"
+
+[context.production.environment]
+# If Netlify installs using npm, include devDependencies so CRACO is available
+  NPM_FLAGS = "--include=dev"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
